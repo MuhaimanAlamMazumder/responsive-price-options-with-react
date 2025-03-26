@@ -34,7 +34,7 @@ const PriceOption = ({option}) => {
     );
 };
 
-PriceOption.PropTypes = {
+PriceOption.propTypes = {
 
     option: PropTypes.object
 }

@@ -1,6 +1,7 @@
+import PriceOption from "./PriceOption/PriceOption";
 
 
-const PriceOption = () => {
+const PriceOptions = () => {
 
    const priceOptions = [
         {
@@ -54,7 +55,7 @@ const PriceOption = () => {
             <div className="grid md:grid-cols-3 gap-6">
             {
 
-                priceOptions.map(option => <PriceOption key={option.id} option={option}></PriceOption>)
+                priceOptions.map(option =>  <PriceOption key={option.id} option={option}></PriceOption>)
             }
             </div>
             
@@ -62,4 +63,4 @@ const PriceOption = () => {
     );
 };
 
-export default PriceOption;
+export default PriceOptions;
